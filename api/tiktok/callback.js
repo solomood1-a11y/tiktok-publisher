@@ -1,4 +1,4 @@
-const REDIRECT_URI = "https://tiktok-publisher-puce.vercel.app/api/tiktok/callback";
+const REDIRECT_URI = "https://solomood-publisher.vercel.app/api/tiktok/callback";
 
 function escapeHtml(value) {
   return String(value)
