@@ -1,6 +1,6 @@
 const crypto = require("crypto");
 
-const REDIRECT_URI = "https://tiktok-publisher-puce.vercel.app/api/tiktok/callback";
+const REDIRECT_URI = "https://solomood-publisher.vercel.app/api/tiktok/callback";
 
 module.exports = (req, res) => {
   if (req.method !== "GET") {
